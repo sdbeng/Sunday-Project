@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="meetupsApp">
+<head>
+	<meta charset="UTF-8">
+	<title>My Angular-Express-MongoDB App</title>
+</head>
+<body>
+	<h1>Hero unit</h1>
+	<div ng-controller="meetupsCtrl">
+		<h2>There are {{meetupsCount}} meetups </h2>
+		<ul>
+			<li ng-repeat="meetup in meetups">
+				<!-- {{meetup.name}} -->
+			</li>
+		</ul>
+	</div>
+
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
+	<!-- meetups-controller.js -->
+	<script src="/js/controllers/meetups-controller.js"></script>
+</body>
+</html>

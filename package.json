@@ -1,0 +1,14 @@
+{
+  "name": "mean-demo",
+  "version": "1.0.0",
+  "description": "Sample Node-Express-MongoDB App to input resources",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Serg",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.0"
+  }
+}
