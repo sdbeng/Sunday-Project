@@ -7,7 +7,9 @@ app.controller('meetupsController', ['$scope','$resource', function($scope,$reso
 	//we define an array to temporarily hold meetups
 	$scope.meetups = [
 		{name: "meetup group 1"},
-		{name: "meetup group 2"}
+		{name: "meetup group 2"},
+		{name: "meetup front-end developers 3"},
+		{name: "meetup back-end developers 4"}
 	]
 
 	$scope.createMeetup = function(){
